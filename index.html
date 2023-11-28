@@ -9,18 +9,22 @@
 </head>
 <body class="d-flex flex-column align-items-center justify-content-center">
 
-    <section class="bg-dark d-flex flex-column align-items-center py-1">
-        <div class="p-md-4">
-            <div  class="bg-dark text-white d-flex justify-content-center px-1 py-3 p-md-3">
-                <div class="numeros-container">00 :</div>
-                <div class="ms-3 numeros-container">02 :</div>
-                <div class="ms-3 numeros-container">58</div>
+    <section class="bg-dark d-flex flex-column align-items-center py-1 py-md-3">
+        <div class="">
+            <div  class="bg-dark text-white d-flex justify-content-center px-1 py-3 p-md-3 text-center">
+                <div class="numeros-container" id="horas">00 </div>:
+                <div class="ms-2 numeros-container" id="minutos">00 </div>:
+                <div class="ms-2 numeros-container" id="segundos">00 </div>:
+                <div class="ms-2 numeros-container" id="milisegundos">000</div>
             </div>
     
-            <div class="border-top border-opacity-75 d-flex justify-content-around py-3">
-                <button class="btn btn-success">Empezar</button>
-                <button class="btn btn-danger">Detener</button>
-                <button class="btn btn-secondary">Reiniciar</button>
+            <div class="border-top border-opacity-75 d-flex justify-content-center">
+                <div class="botones-container d-flex justify-content-around py-2 py-md-4">
+                    <button class="btn btn-success me-2">Iniciar</button>
+                    <button class="btn btn-danger me-2">Detener</button>
+                    <button class="btn btn-secondary">Reiniciar</button>
+                </div>
+                
             </div>
         </div>
     </section>
