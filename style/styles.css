@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
+body {
+    min-height: 100vh;
+}
+
+section {
+    width: 98%;
+    min-width: 270px;
+    max-width: 400px;
+    font-family: Oswald;
+    font-size: 60px;
+
+    border-radius: 5px;
+}
+
+section div {
+    white-space: nowrap;
+}
+
